@@ -15,15 +15,14 @@
 </template>
 
 <script>
-  import navigationMenu from './components/Menu.vue'
-  export default {
-    data() {
-      return {
-        //
-      }
-    },
-    components: {
-      navigationMenu
+    import navigationMenu from './components/Menu.vue'
+    export default {
+        data() {
+            return {
+            }
+        },
+        components: {
+            navigationMenu
+        }
     }
-  }
 </script>

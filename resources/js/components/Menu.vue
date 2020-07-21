@@ -4,7 +4,7 @@
             <!--UNLOGGED-->
             <li v-if="!$auth.check()" v-for="(route, key) in routes.unlogged" v-bind:key="route.path">
                 <router-link  :to="{ name : route.path }" :key="key">
-                    {{route.name}}
+                    {{route.name}} 
                 </router-link>
             </li>
             <!--LOGGED USER-->
@@ -35,11 +35,11 @@
           // UNLOGGED
           unlogged: [
             {
-              name: 'Inscription',
+              name: 'Register',
               path: 'register'
             },
             {
-              name: 'Connexion',
+              name: 'Login',
               path: 'login'
             }
           ],

@@ -16,7 +16,7 @@
                         <label for="password">Mot de passe</label>
                         <input type="password" id="password" class="form-control" v-model="password" required>
                     </div>
-                    <button type="submit" class="btn btn-default">Connexion</button>
+                    <button type="submit" class="btn btn-default">Login</button>
                 </form>
             </div>
         </div>
